@@ -8,6 +8,7 @@ body {
 }
 
 li {
+  font-family: roboto;
   justify-items: center;
   margin: 0 auto;
   position: relative;
@@ -50,6 +51,7 @@ a:hover {
 }
 
 p {
+  font-family: roboto;
   display: flex;
   justify-items: center;
   margin: 0 auto;
@@ -90,4 +92,12 @@ p {
 .imagem {
   display: block;
   margin: 0 auto;
+  width: 500px;
+  height: 350px;
 }
+
+.Nav_img {
+  height: 80px;
+  width: 160px;
+}
+
