@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="head">
+        <img id="logo_ifto" src="./Imagens/Logo IF.png" alt="Não foi possível carregar a imagem" >
+
+        <h1 id="h1_logo">EVENTOS</h1>
+
+        <nav id="nav">
+            <a class="opcao_nav" href="">INSCRIÇÃO</a>
+            <a class="opcao_nav" href="./feedback.html">FEEDBACK</a>
+            <a class="opcao_nav" href="../index.html">VOLTAR</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section>
+            <div id="fundo1_formulario">
+                <div id="fundo2_formulario">
+                    <h1>Dados Pessoais</h1>
+
+                    <form action="">
+                        <label for="">Nome:</label>
+                        <input type="text">
+                        
+                        <label for="">Sexo:</label>
+                        <input list="sexo">
+                        <datalist id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                        </datalist>
+                        <br>
+
+                        <label for="">Sobrenome:</label>
+                        <input type="text">
+
+                        <label for="">Nome para caso de emergência:</label>
+                        <input type="text">
+                        <br>
+
+                        <label for="">E-mail:</label>
+                        <input type="email">
+
+                        <label for="">Telefone:</label>
+                        <input type="tel">
+                        <br>
+
+                        <label for="">Data de Nascimento:</label>
+                        <input type="date">
+
+                        <label for="">Telefone para emergência:</label>
+                        <input type="tel">
+                        <br>
+
+                        <h1>Eventos Disponíveis</h1>
+
+                        <input type="checkbox">
+                        <label for="">Evento 1: 12:00 - 13:00</label>
+                        <br>
+
+                        <input type="checkbox">
+                        <label for="">Evento 2: 14:00 - 15:00</label>
+                        <br>
+
+                        <input type="checkbox">
+                        <label for="">Evento 3: 18:00 - 19:00</label>
+                        <br>
+
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>          
+
+        </section>
+    </main>
+</body>
+</html>
